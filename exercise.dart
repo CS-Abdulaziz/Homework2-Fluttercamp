@@ -43,6 +43,8 @@ class Customer extends Person{
   }
 
   void printInformation(){
+
+    print('Customer info:');
     print('Name: $name, Email: $email');
     print('-' * 100);
     
